@@ -1,7 +1,7 @@
-# Stock Price Predictor
+# Stock Price Forecaster
 
 ## Overview
-This repository contains a Jupyter Notebook designed to predict stock prices using historical data. It employs deep learning techniques, specifically LSTM Long Short-Term Memory (LSTM) networks, to forecast future prices based on past trends.
+The purpose of this Jupyter Notebook is to anayze stock prices using historical market data. It employs deep learning techniques, specifically LSTM Long Short-Term Memory (LSTM) networks, to forecast future prices based on past trends.
 
 ## Features
 - **Data Collection**: Fetch historical stock price data using the `yfinance` library.
@@ -30,3 +30,4 @@ This repository contains a Jupyter Notebook designed to predict stock prices usi
 ## Notes
 - Accuracy of predictions may vary based on market volatility and the model's limitations.
 - The model should be retrained periodically to incorporate the latest data, as well as being continually updated with the latest techniques.
+- This model requires various modifications for production and deployment.
