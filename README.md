@@ -1,7 +1,7 @@
 # Stock Price Forecast
 
 ## Overview
-The purpose of this Jupyter Notebook is to anayze stock prices using historical market data. It employs deep learning techniques, specifically LSTM Long Short-Term Memory (LSTM) networks, to forecast future prices based on past trends.
+The purpose of this Jupyter Notebook is to anayze stock prices using historical market data. It employs deep learning techniques, specifically LSTM Long Short-Term Memory (LSTM) networks, to forecast future prices based on past trends. TensorFlow (via its high-level API, Keras) is used to define and build the LSTM neural network model.
 
 ## Features
 - **Data Collection**: Fetch historical stock price data using the `yfinance` library.
